@@ -3,8 +3,8 @@
   padding: 0;
 }
 
-#header {
-  background-color: lightpink;
+#header1 {
+  background-color:pink;
   height: 30vh;
   display: flex;
   flex-direction: column;
@@ -12,10 +12,21 @@
   align-items: center;
 }
 
+#header2 {
+  background-color:pink;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+
 #container {
   background-color: black;
   height: 70vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows:1fr 1fr;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -25,3 +36,13 @@
   width: 200px;
   background-color: aliceblue;
 }
+
+  .row {
+    display: flex; 
+    flex-direction: row;
+    width: 150vh;
+    justify-content: space-evenly;
+  }
+  
+ 
+
